@@ -2,7 +2,7 @@
   "name": "Facebook_Comment_Box_react_node.js",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": ">=14.15.0"
   },
@@ -14,17 +14,9 @@
     "develop": "concurrently -n 'server,client' -c 'red,blue' \"npm run server\" \"npm run start-client\"",
     "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lighthouseTeam/Facebook_Comment_Box_react_node.js.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lighthouseTeam/Facebook_Comment_Box_react_node.js.git"
-  },
-  "homepage": "https://github.com/lighthouseTeam/Facebook_Comment_Box_react_node.js.git",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
