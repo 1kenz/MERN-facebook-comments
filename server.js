@@ -3,7 +3,7 @@ const app = express();
 // const router = express.Router();
 const connectDB = require("./models/connectDB");
 const router = require("./routes/router");
-// const cors = require("cors");
+const cors = require("cors");
 
 require("dotenv").config();
 
@@ -20,7 +20,7 @@ app.listen(port, () => {
   console.log(`I'm listening on port ${port}`);
 });
 
-// app.use(cors());
+app.use(cors());
 
 app.use(express.json());
 app.use("/", router);
