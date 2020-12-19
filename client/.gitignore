@@ -24,7 +24,8 @@ yarn-debug.log*
 yarn-error.log*
 
 /.env
-/node_modules
+/node_modules/
+node_modules
 test.js
 coverage/
 build/
@@ -36,7 +37,7 @@ debug/
 jsdoc/
 versions.json
 *.iml
-.eslintcache
+/.eslintcache/
 .cache
 /packages/**/node_modules
 /tools/internal-rules/node_modules
