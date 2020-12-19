@@ -2,7 +2,7 @@
   "name": "Facebook_Comment_Box_react_node.js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": ">=14.15.0"
   },
