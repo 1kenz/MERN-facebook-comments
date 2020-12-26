@@ -20,14 +20,14 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <img src={logo} alt="lighthouse-team" />
+    <div className="container">
+      <img className="logo" src={logo} alt="lighthouse-team" />
       <h1>Developped by lighthouse-team</h1>
-      <div>
+      <div className="comments">
         <h2>Comments:</h2>
         <CommentList data={data} />
       </div>
-      <div>
+      <div className="form">
         <CommentForm />
       </div>
     </div>
